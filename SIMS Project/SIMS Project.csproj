@@ -23,4 +23,13 @@
     <None Include="Views\Home\Dashboard.cshtml" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Views\Admin\Account\" />
+    <Folder Include="Views\Admin\Course\" />
+    <Folder Include="Views\Admin\Class\" />
+    <Folder Include="Views\Login\" />
+    <Folder Include="Views\NewFolder\" />
+    <Folder Include="Views\UpdateProfile\" />
+  </ItemGroup>
+
 </Project>
