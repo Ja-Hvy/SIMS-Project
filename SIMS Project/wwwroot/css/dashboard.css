@@ -1,0 +1,127 @@
+﻿/* Tổng thể */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f9;
+}
+
+/* Header */
+.dashboard-header {
+    background-color: #F36F21;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+}
+
+.logo {
+    height: 60px;
+}
+
+.nav-bar ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-bar a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+    .nav-bar a:hover {
+        text-decoration: underline;
+    }
+
+/* Announcement */
+.announcement {
+    background-color: #fff;
+    padding: 10px 50px;
+    border-bottom: 2px solid #F36F21;
+}
+
+    .announcement h3 {
+        margin: 0;
+        color: #333;
+    }
+
+/* Course overview */
+.course-overview {
+    max-width: 1100px;
+    margin: 30px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+    .course-overview h2 {
+        margin-bottom: 20px;
+        color: #333;
+    }
+
+.tab-buttons {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+    .tab-buttons button {
+        background-color: #009688;
+        border: none;
+        color: white;
+        padding: 8px 15px;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+        .tab-buttons button.active {
+            background-color: #00796B;
+        }
+
+/* Grid courses */
+.courses-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.course-card {
+    position: relative;
+    padding: 20px;
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+    .course-card .progress {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        background-color: white;
+        color: orange;
+        font-weight: bold;
+        border-radius: 50%;
+        padding: 8px 12px;
+    }
+
+.pink {
+    background-color: #f06292;
+}
+
+.gray {
+    background-color: #bdbdbd;
+}
+
+.blue {
+    background-color: #42a5f5;
+}
+
+.purple {
+    background-color: #ab47bc;
+}

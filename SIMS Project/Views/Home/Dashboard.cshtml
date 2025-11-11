@@ -1,0 +1,56 @@
+﻿@{
+    ViewData["Title"] = "Dashboard";
+}
+<link rel="stylesheet" href="~/css/dashboard.css" />
+
+<div class="dashboard-container">
+    <!-- Header -->
+    <header class="dashboard-header">
+        <div class="logo-section">
+            <img src="~/images/btec-logo.png" alt="BTEC Logo" class="logo" />
+        </div>
+        <nav class="nav-bar">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Dashboard</a></li>
+                <li><a href="#">Events</a></li>
+                <li><a href="#">My Courses</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Announcements -->
+    <section class="announcement">
+        <h3>ANNOUNCEMENTS</h3>
+    </section>
+
+    <!-- Course Overview -->
+    <section class="course-overview">
+        <h2>Course Overview</h2>
+
+        <div class="tab-buttons">
+            <button class="active">In Progress</button>
+            <button>Future</button>
+            <button>Past</button>
+        </div>
+
+        <div class="courses-grid">
+            <div class="course-card pink">
+                <span class="progress">100%</span>
+                <p>SU25_SE07203_7419</p>
+            </div>
+            <div class="course-card gray">
+                <span class="progress">100%</span>
+                <p>SU25_SE07203_7408</p>
+            </div>
+            <div class="course-card blue">
+                <span class="progress">100%</span>
+                <p>SP25_SE07201_7406</p>
+            </div>
+            <div class="course-card purple">
+                <span class="progress">100%</span>
+                <p>FA24_SE07202</p>
+            </div>
+        </div>
+    </section>
+</div>
